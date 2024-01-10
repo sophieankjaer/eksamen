@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carattere&family=Playfair+Display:ital@1&family=Roboto:wght@100&family=Vina+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carattere&family=Kalam:wght@300&family=Playfair+Display:ital@1&family=Roboto:wght@100&family=Vina+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="fonte/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="fonte/favicon_io/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="fonte/favicon_io/favicon-32x32.png"
+    />
+    <link rel="manifest" href="fonte/favicon_io/site.webmanifest" />
+    <title>Mit portfolio</title>
+  </head>
+  <header>
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <img src="imgs/mini_logo.webp" alt="logo" class="logo" />
+        </div>
+        <div class="container nav-container">
+          <input class="checkbox" type="checkbox" name="checkbox" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+
+          <ul class="menu-items">
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="intro.html">Intro</a></li>
+            <li><a href="web.html">Web</a></li>
+            <li><a href="ul_ux.html">Ux</a></li>
+            <li><a href="animation.html">Animation</a></li>
+            <li><a href="indhold.html">Indhold</a></li>
+            <li><a class="active" href="om.html">Om</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <div class="around">
+      <div class="om">
+        <img src="imgs/om_mig.webp" alt="om_mig" />
+        <p>
+          Mit navn er Sophie Ankjær Andersen, og jeg er 24 år gammel. Jeg er
+          lige flyttet til Frederiksberg sammen med min kæreste og vores fælles
+          hund.
+          <br />
+          <br />
+          Siden jeg gik ud af gymnasiet har jeg rejst, og haft 5 gode sabbatår
+          som har gjort mig klar til at lære og udvikle mig. I mine sabbatår har
+          jeg arbejdet på Marienlyst Strandhotel i Helsingør, hvor min stilling
+          var supervisor i morgenmaden og konferencen - og dertil F&B
+          koordinator. Nu arbjeder jeg der kun som studiejob, da jeg i august
+          måned startede på 1. semester på multimediedesigner uddannelsen på KEA
+          <br />
+          <br />
+          Jeg har en drøm om, at arbejde kreativt, grafisk og dertil bruge
+          sociale medier.
+        </p>
+      </div>
+      <div class="cv">
+        <div>
+          <h2>Personlighedstype: ENFP</h2>
+          <p>
+            Som person er jeg kreativ, dynamisk og så elsker jeg, at hjælpe
+            andre mennesker og gerne med at få dem til at se egne potentiale og
+            motivere dem - hvilket stemmer overens med min tidligere stilling
+            som supervicor.
+            <br />
+            <br />
+            Funfact: Jeg deler personlighedstype med Casper Christensen
+          </p>
+        </div>
+        <img src="imgs/cv.webp" alt="cv" />
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+  <footer>
+    <button id="showFormButton">Kontakt</button>
+    <div class="contact-form-container" id="contactFormContainer">
+      <h3>Kontakt mig</h3>
+      <form id="contactForm">
+        <label for="name">Navn:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Besked:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send besked</button>
+        <button type="button" id="closeFormButton">Luk</button>
+      </form>
+    </div>
+  </footer>
+</html>

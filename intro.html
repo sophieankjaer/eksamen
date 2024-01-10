@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carattere&family=Playfair+Display:ital@1&family=Roboto:wght@100&family=Vina+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carattere&family=Kalam:wght@300&family=Playfair+Display:ital@1&family=Roboto:wght@100&family=Vina+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="fonte/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="fonte/favicon_io/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="fonte/favicon_io/favicon-32x32.png"
+    />
+    <link rel="manifest" href="fonte/favicon_io/site.webmanifest" />
+    <title>Intro</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="logo">
+            <img src="imgs/mini_logo.webp" alt="logo" class="logo" />
+          </div>
+          <div class="container nav-container">
+            <input class="checkbox" type="checkbox" name="checkbox" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>
+
+            <ul class="menu-items">
+              <li><a href="index.html">Forside</a></li>
+              <li><a class="active" href="intro.html">Intro</a></li>
+              <li><a href="web.html">Web</a></li>
+              <li><a href="ul_ux.html">Ux</a></li>
+              <li><a href="animation.html">Animation</a></li>
+              <li><a href="indhold.html">Indhold</a></li>
+              <li><a href="om.html">Om</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="around">
+      <div class="domaene">
+        <div>
+          <h1>Introugen</h1>
+        </div>
+        <p>
+          I den indledende uge af 1. semester blev vi præsenteret for værdifulde
+          metoder og fik en overordnet forståelse af uddannelsens indhold. Vi
+          påbegyndte processen med at vælge vores domænenavn og etablere vores
+          første hjemmeside, som har været fundamentet for vores arbejde siden
+          da.
+        </p>
+
+        <img src="imgs/intro.webp" alt="domæne" />
+        <a href="https://sophieankjaer.dk/kea/01_introuge/index.html"
+          >Besøg min domæneside</a
+        >
+      </div>
+
+      <div class="preastentationskort">
+        <p>
+          Desuden blev vi introduceret til Figma, hvor vi skabte
+          præsentationskort. Dette program blev en fascinerende legeplads, hvor
+          vi ikke kun udforskede dets funktioner, men også opnåede en dybere
+          indsigt i hinandens profiler.
+        </p>
+        <img src="imgs/praesentationskort.webp" alt="præsentationskort" />
+
+        <a
+          href="https://sophieankjaer.dk/kea/01_introuge/praesentationskort.jpg"
+          >Link til mit præsentationskort</a
+        >
+      </div>
+
+      <div class="film">
+        <p>
+          En gruppeopgave bestod i at producere en film under temaet "finde en
+          fælles interesse". Vores gruppe valgte at fokusere på emnet "Hobbyer".
+          Filmen, kaldet "Modern Hobbies," tog inspiration fra TV-serien 'Modern
+          Family'. Vi navigerede gennem klippeteknik, valg af rettighedssikret
+          baggrundsmusik og forsøgte at genskabe seriens lyd og visuelle stil.
+          Dette inkluderede en forståelse af copyright-relaterede begrænsninger
+          vedrørende musikvalg.
+        </p>
+        <img src="imgs/film.webp" alt="film" />
+
+        <a href="https://www.youtube.com/watch?v=Yf_zGiUCHc0"
+          >Link til vores første film</a
+        >
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+  <footer>
+    <button id="showFormButton">Kontakt</button>
+    <div class="contact-form-container" id="contactFormContainer">
+      <h3>Kontakt mig</h3>
+      <form id="contactForm">
+        <label for="name">Navn:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Besked:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send besked</button>
+        <button type="button" id="closeFormButton">Luk</button>
+      </form>
+    </div>
+  </footer>
+</html>

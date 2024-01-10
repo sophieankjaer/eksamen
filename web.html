@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carattere&family=Playfair+Display:ital@1&family=Roboto:wght@100&family=Vina+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carattere&family=Kalam:wght@300&family=Playfair+Display:ital@1&family=Roboto:wght@100&family=Vina+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="fonte/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="fonte/favicon_io/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="fonte/favicon_io/favicon-32x32.png"
+    />
+    <link rel="manifest" href="fonte/favicon_io/site.webmanifest" />
+    <title>Web</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="logo">
+            <img src="imgs/mini_logo.webp" alt="logo" class="logo" />
+          </div>
+          <div class="container nav-container">
+            <input class="checkbox" type="checkbox" name="checkbox" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>
+
+            <ul class="menu-items">
+              <li><a href="index.html">Forside</a></li>
+              <li><a href="intro.html">Intro</a></li>
+              <li><a class="active" href="web.html">Web</a></li>
+              <li><a href="ul_ux.html">Ux</a></li>
+              <li><a href="animation.html">Animation</a></li>
+              <li><a href="indhold.html">Indhold</a></li>
+              <li><a href="om.html">Om</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="around">
+      <div class="web">
+        <div>
+          <h1>Grundlæggende web</h1>
+        </div>
+        <p>
+          Denne side handler om det grundlæggende web (tema 2) som vi har været
+          igennem på 1. semester. Det er studiestartsprøven og jeg har
+          udarbejdet en hjemmeside med indhold som vi fik udleveret. Meningen
+          med denne opgave var at øve og forstå VScode og dertil HTML og CSS.
+          <br />
+          Brugen af CSS har givet mig mulighed for at strukturere indholdet på
+          en måde, der er både felksibel og responsiv.
+        </p>
+        <img src="imgs/web.webp" alt="web" />
+
+        <a
+          href="http://sophieankjaer.dk/kea/02_web/01_website/website/index.html"
+          >Besøg min website</a
+        >
+      </div>
+
+      <div class="visitkort">
+        <p>
+          Ligesom i det første tema, hvor vi skulle lave et præsentationskort i
+          Figma, skulle vi i dette tema lave et visitkort i VScode. Vi skulle
+          skrive lidt om os selv - men det der egentlig var vigtigt med denne
+          opgave var, at vi skulle stifte bekendtskab med VScode og øve os i,
+          hvordan man egentlig laver en hjemmeside. Vi skulle også øve os i, at
+          bruge FileZilla til at ligge de diverse ting op på vores domæne og
+          dermed kan vores side fungere som en rigtig hjemmeside.
+          <br />
+          Studiestartsprøven udfordrede mig til at indsætte indholdet på en
+          struktureret måde i VScode, med fokus på mobilefirst-design.
+        </p>
+        <img src="imgs/visitkort.webp" alt="visitkort" />
+
+        <a href="https://sophieankjaer.dk/kea/02_web/visitkort/"
+          >Link til mit visitkort</a
+        >
+      </div>
+
+      <div class="pensum">
+        <p>
+          I forhold til billeder og rettigheder har jeg fået en forståelse for
+          vigtigheden af at respektere ophavsrettigheder og bruge billeder
+          lovligt. Jeg har også lært, at optimere billeder til webbrug og sikre,
+          at de bidrager positivt til websitet.
+          <br />
+          <br />
+          Vi har også dykket ned i ChatGPT og forstået, hvordan man kan få hjælp
+          til at forstå og komme videre med sin kode.
+          <br />
+          <br />
+          En betydelig udfordring var min manglende erfaring med at organisere
+          filer på computeren, men takket være støtte og vejledning lærte jeg at
+          opretholde en ordentlig mappestruktur, hvilket betydeligt forbedrede
+          min arbejdsproces. Grid og flex udgjorde en anden udfordring, som jeg
+          gradvist forstod bedre i de senere emner.
+          <br />
+          <br />
+          Samlet set har dette tema udstyret mig med en bred vifte af
+          færdigheder inden for det grundlæggende web og designprincipper, som
+          har gjort det nemmere ved at forstå og lege videre med at dygtiggøre
+          sig.
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="javascript.js"></script>
+  <footer>
+    <button id="showFormButton">Kontakt</button>
+    <div class="contact-form-container" id="contactFormContainer">
+      <h3>Kontakt mig</h3>
+      <form id="contactForm">
+        <label for="name">Navn:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Besked:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send besked</button>
+        <button type="button" id="closeFormButton">Luk</button>
+      </form>
+    </div>
+  </footer>
+</html>
